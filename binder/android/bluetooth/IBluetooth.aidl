@@ -287,4 +287,6 @@ interface IBluetooth
     void generateLocalOobData(in int transport, IBluetoothOobDataCallback callback, in AttributionSource attributionSource);
 
     int getDeviceType(in BluetoothDevice device);
+
+    boolean isBroadcastActive();
 }
